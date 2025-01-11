@@ -1,0 +1,71 @@
+
+.jumbotron{
+    padding-top: 2re;
+    background-color:   #0099ff; 
+   
+}
+
+section {
+  padding-top: 7rem;
+}
+
+
+#projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+
+/* Gaya umum untuk daftar kontak */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #0077b5; /* Warna LinkedIn ketika hover */
+  text-decoration: underline;
+}
+
+/* Menambahkan ikon WhatsApp jika diperlukan */
+ul li a[href*="wa.me"] {
+  color: #25D366; /* Warna khas WhatsApp */
+}
+
+ul li a[href*="wa.me"]:hover {
+  color: #128C7E; /* Warna gelap saat hover */
+}
